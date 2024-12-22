@@ -1,0 +1,4 @@
+debian/ksmbd.mountd.8
+debian/ksmbd.control.8
+debian/ksmbd.adduser.8
+debian/ksmbd.addshare.8
