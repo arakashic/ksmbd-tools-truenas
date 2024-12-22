@@ -1,0 +1,14 @@
+ksmbd-tools for Debian
+----------------------
+
+You will need to have ksmbd module loaded or
+a Linux Kernel 5.15+ with the option
+CONFIG_SMB_SERVER in the kernel configuration.
+
+See the /usr/share/doc/ksmbd-tools/examples/smb.conf.example
+and put a copy to /etc/ksmbd/
+mkdir /etc/ksmbd/
+
+Run ksmbd.mountd to start the kernel mode smb daemon.
+
+ -- Gürkan Myczko <gurkan@phys.ethz.ch>  Fri, 01 Oct 2021 09:46:16 +0200
